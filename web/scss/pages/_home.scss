@@ -1,0 +1,43 @@
+.spectacle {
+    padding: 5vh 0;
+    background-image: url(../img/couverture2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 60vw;
+
+    h1 {
+        padding: 3vmin;
+        font-family: $header_font;
+        color: $brand-primary;
+    }
+    h2, p {
+        text-shadow: 1px 1px 3px black,
+        -1px -1px 2px black;
+    }
+    p {
+        font-family: $modern_sans7; 
+    }
+}
+
+.about {
+    background: url(../img/mot2.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 45vw;
+    h1 {
+        padding: 35% 0;
+        text-shadow: 1px 1px 3px black,
+        -1px -1px 2px black;
+    }
+}
+
+.us {
+    background-color:$text-background;
+    height: 45vw;
+}
+
+.administrateurs {
+    transform: translate(0, -23%);
+}

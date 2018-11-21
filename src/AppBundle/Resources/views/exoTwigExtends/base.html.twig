@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{ asset('css/style_test.css') }}">
+        <style>
+            h1 {
+                text-align: center;
+                padding: 10px;
+                margin-top: 0;
+            }
+
+            /*header {
+                background-color: #1b636f;
+            }*/
+
+            div {
+                display: inline-block;
+                float: left;
+                width: 30%;
+            }
+
+            .article {
+                width: 60%;
+                margin-right: 20px;
+            }
+
+            .cls {
+                clear: both;
+            }
+
+            /*.footer {
+                margin: 0 auto;
+                width: 100vw;
+                text-align: center;
+                background-color: #1b636f;
+            }*/
+
+        </style>
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Première page avec Extends de Twig</h1>
+        </header>
+
+        <main>
+            <div class="article">
+                {% block contenu %}Main section{% endblock %}
+                <p><a href="{{ path('twig_link')}}">Lien vers nouvelle page</a></p>
+            </div>
+
+
+        </main>
+        <aside>
+            <div>
+                {% block isasideBlock %}{% endblock %}
+            </div>
+        </aside>
+    <div class="cls"></div>
+    <section>
+    <footer>
+        <div class="footer">
+            <h1>Pied de Page</h1>
+        </div>
+
+    </footer>
+    </section>
+</body>
+</html>

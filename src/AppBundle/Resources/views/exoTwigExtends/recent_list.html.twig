@@ -1,0 +1,12 @@
+{# App/Resources/views/exoTwigExtends/recent_list.html.twig #}
+
+    <h1>Liste des Articles : </h1>
+<hr>
+    {% for article in articles %}
+        <article>
+            <p>{{ article.author }}</p>
+            <p>{{ article.title }}</p>
+            <p>{{ article.content }}</p>
+        </article>
+        <hr>
+    {% endfor %}

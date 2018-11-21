@@ -1,0 +1,24 @@
+{% extends "@App/exoTwigExtends/base.html.twig" %}
+
+{% block title %}Première Page Twig Extends{% endblock %}
+
+
+{% block contenu %}
+    <article>
+        <h1>Titre de l'article</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum cupiditate doloribus earum ex fuga, id ipsa, iste iusto natus nihil officia porro possimus quaerat quisquam repellat, similique! Sit, sunt!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum cupiditate doloribus earum ex fuga, id ipsa, iste iusto natus nihil officia porro possimus quaerat quisquam repellat, similique! Sit, sunt!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum cupiditate doloribus earum ex fuga, id ipsa, iste iusto natus nihil officia porro possimus quaerat quisquam repellat, similique! Sit, sunt!</p>
+    </article>
+
+{% endblock %}
+
+{% block isasideBlock %}
+    {% if  isaside == 'true' %}
+{#fait appel au controller de Widget !!!#}
+        {{ render(controller(
+            'AppBundle:ExoArticles:recentArticles'
+        )) }}
+
+    {% endif %}
+{% endblock %}

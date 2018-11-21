@@ -1,0 +1,54 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+// define bootstrap colors for customer (personnaliser les couleurs Bootstrap)
+// vendor Bootstrap variables are kept constant, not changed!!
+
+$red: #e23400;
+$black: #1f1f1f;
+$white: #fff;
+$turquoiseBackground: #1b636f;
+$greenBackground: #2d6c6a;
+
+$gray-600: #2d2d2d;
+
+//bootstraop primary color
+$primary: $red;
+$brand-primary: $red;
+
+//buttons bootstrap
+$enable-rounded: false;
+
+// colors bootstrap : see documentation Bootstrap
+$body-bg: $black;      //$gray-600;
+$body-color: $white;
+$text-background: $turquoiseBackground;
+
+$display1-size: 4vw;   //display1 : title size 
+$lead-font-size: 2vw; //lead font
+$font-size-base: 1.3rem; // p/normal size font
+
+//dim buttons bootstrap
+$btn-padding-y: .8vmin;
+$btn-padding-x: 1.3vmin;
+
+// modifie navigationbar: see documentation Bootstrap
+$nav-tabs-link-active-bg: $black;
+
+
+//$navbar-dark-color:$brand-primary; see documentation Bootstrap
+$navbar-dark-active-color:$brand-primary;
+
+
+
+
+
+
+
+
+
+
+
+
+// police bad script : google pour présentation
+//<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+//font-family: 'Bad Script', cursive;

@@ -1,0 +1,16 @@
+// define the typography here in general
+// can be more specified by page on _home.scss, etc.
+
+body {
+    padding: 74px; // height of navbar actually, also on sides for proportion. 
+    font-family: $modern_sans;
+    font-weight: $normal_font;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $modern_sans7;
+}
+
+h2 {
+    font-size: 3vw;
+}
