@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: lapiscine
- * Date: 20/11/2018
- * Time: 12:25
- */
 
 namespace AppBundle\Controller;
 use Symfony\Component\HttpFoundation\Request;

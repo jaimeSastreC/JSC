@@ -15,10 +15,11 @@ class ExoRequestController extends Controller
      * @Route("/blog", name="blog_params")
      */
     public function paramsUrlAction(Request $request){
-        //Request $request crée l'objet , géré par Symfony
+        //Request $request crée l'objet , géré par Symfony GET!!!
         //var_dump($request);
         $var = $request->query->get('id');
 
+        // getHost donne infos sur navigateur Client
         $varHost = $request->getHost();
         //var_dump($var);die;
         echo $var . " " . $varHost; die;
@@ -134,9 +135,7 @@ class ExoRequestController extends Controller
         }
         // return ($check === "true")? $this->redirectToRoute('poker') : new Response("Vous n'êtes pas auorisé à accéder à la page.");
     }
-
-
-
+    
 }
 
 
