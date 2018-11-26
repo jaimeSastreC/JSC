@@ -1,19 +1,22 @@
 .spectacle {
-    padding: 5vh 0;
-    background-image: url(../img/couverture2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    height: 60vw;
+    background: {
+        image: url(../img/couverture2.jpg);
+        size: cover;
+        repeat: no-repeat;
+        position: top center;
+        height: auto;
+    }
+    padding: 5vmin 0;
+    height: auto;
 
     h1 {
-        padding: 3vmin;
+        padding: 3vmax;
         font-family: $header_font;
         color: $brand-primary;
     }
     h2, p {
         text-shadow: 1px 1px 3px black,
-        -1px -1px 2px black;
+            -1px -1px 2px black;
     }
     p {
         font-family: $modern_sans7; 
@@ -21,16 +24,20 @@
 }
 
 .about {
-    background: url(../img/mot2.jpg);
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
+    background: {
+        image:url(../img/mot2.jpg);
+        size: cover;
+        position: top center;
+        repeat: no-repeat;
+    }
     height: 45vw;
+
     h1 {
         padding: 35% 0;
         text-shadow: 1px 1px 3px black,
-        -1px -1px 2px black;
+            -1px -1px 2px black;
     }
+
 }
 
 .us {
@@ -38,6 +45,67 @@
     height: 45vw;
 }
 
-.administrateurs {
-    transform: translate(0, -23%);
+.administrateurs, .enCours {
+    transform: translate(0, -6vw);
+    h3{
+        font-size: 1.2em;
+        text-shadow: 1px 1px 3px black,
+            -1px -1px 2px black;
+    }
+    p {
+        font-size: 1em;
+        text-shadow: 1px 1px 3px black,
+            -1px -1px 2px black;
+        @include media-breakpoint-up(md){
+            font-size: .7em;
+            &:hover {
+                color:$black;
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+
+    @include media-breakpoint-up(md){
+        transform: translate(0, -2vw);
+    }
+}
+
+.affiches {
+    // à définir si besoin
+}
+
+.card:hover {
+    box-shadow: 1px 10px 50px white,
+        -1px -1px 4px white;
+}
+
+.membre {
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    body {  
+        padding: 0;
+        padding-top: 74px; // hauteur barre menu
+        margin: 0;
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.6rem;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        .us {
+            background-color:$text-background;
+            height: auto;
+        }
+
+        .about {
+            height: auto;
+        }
+
+
+    }
 }

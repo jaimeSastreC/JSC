@@ -24,12 +24,13 @@ $body-color: $white;
 $text-background: $turquoiseBackground;
 
 $display1-size: 4vw;   //display1 : title size 
-$lead-font-size: 2vw; //lead font
-$font-size-base: 1.3rem; // p/normal size font
+$lead-font-size: 1.8vW; //lead font
+$font-size-base: 1.5rem; // p- normal size font
 
 //dim buttons bootstrap
-$btn-padding-y: .8vmin;
+$btn-padding-y: 1vmin;
 $btn-padding-x: 1.3vmin;
+
 
 // modifie navigationbar: see documentation Bootstrap
 $nav-tabs-link-active-bg: $black;
@@ -37,7 +38,6 @@ $nav-tabs-link-active-bg: $black;
 
 //$navbar-dark-color:$brand-primary; see documentation Bootstrap
 $navbar-dark-active-color:$brand-primary;
-
 
 
 

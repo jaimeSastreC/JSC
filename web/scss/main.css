@@ -34,7 +34,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
   color: #fff;
@@ -284,25 +284,25 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 3.25rem; }
+  font-size: 3.75rem; }
 
 h2, .h2 {
-  font-size: 2.6rem; }
+  font-size: 3rem; }
 
 h3, .h3 {
-  font-size: 2.275rem; }
+  font-size: 2.625rem; }
 
 h4, .h4 {
-  font-size: 1.95rem; }
+  font-size: 2.25rem; }
 
 h5, .h5 {
-  font-size: 1.625rem; }
+  font-size: 1.875rem; }
 
 h6, .h6 {
-  font-size: 1.3rem; }
+  font-size: 1.5rem; }
 
 .lead {
-  font-size: 2vw;
+  font-size: 1.8vW;
   font-weight: 300; }
 
 .display-1 {
@@ -360,7 +360,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.625rem; }
+  font-size: 1.875rem; }
 
 .blockquote-footer {
   display: block;
@@ -1138,9 +1138,9 @@ mark,
 .form-control {
   display: block;
   width: 100%;
-  height: calc(2.7rem + 2px);
+  height: calc(3rem + 2px);
   padding: 0.375rem 0.75rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
@@ -1186,13 +1186,13 @@ select.form-control:focus::-ms-value {
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 1.625rem;
+  font-size: 1.875rem;
   line-height: 1.5; }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 1.1375rem;
+  font-size: 1.3125rem;
   line-height: 1.5; }
 
 .form-control-plaintext {
@@ -1211,15 +1211,15 @@ select.form-control:focus::-ms-value {
     padding-left: 0; }
 
 .form-control-sm {
-  height: calc(2.20625rem + 2px);
+  height: calc(2.46875rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 1.1375rem;
+  font-size: 1.3125rem;
   line-height: 1.5; }
 
 .form-control-lg {
-  height: calc(3.4375rem + 2px);
+  height: calc(3.8125rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.625rem;
+  font-size: 1.875rem;
   line-height: 1.5; }
 
 select.form-control[size], select.form-control[multiple] {
@@ -1286,7 +1286,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 1.1375rem;
+  font-size: 1.3125rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(40, 167, 69, 0.9); }
@@ -1360,7 +1360,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 1.1375rem;
+  font-size: 1.3125rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(226, 52, 0, 0.9); }
@@ -1471,8 +1471,8 @@ textarea.form-control {
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-  padding: 0.8vmin 1.3vmin;
-  font-size: 1.3rem;
+  padding: 1vmin 1.3vmin;
+  font-size: 1.5rem;
   line-height: 1.5;
   border-radius: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
@@ -1848,13 +1848,13 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.625rem;
+  font-size: 1.875rem;
   line-height: 1.5;
   border-radius: 0; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 1.1375rem;
+  font-size: 1.3125rem;
   line-height: 1.5;
   border-radius: 0; }
 
@@ -2028,7 +2028,7 @@ input[type="button"].btn-block {
   align-items: center;
   padding: 0.375rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -2045,9 +2045,9 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
-  height: calc(3.4375rem + 2px);
+  height: calc(3.8125rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.625rem;
+  font-size: 1.875rem;
   line-height: 1.5; }
 
 .input-group-sm > .form-control,
@@ -2055,9 +2055,9 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
-  height: calc(2.20625rem + 2px);
+  height: calc(2.46875rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 1.1375rem;
+  font-size: 1.3125rem;
   line-height: 1.5; }
 
 .nav {
@@ -2130,10 +2130,10 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.25625rem;
-  padding-bottom: 0.25625rem;
+  padding-top: 0.21875rem;
+  padding-bottom: 0.21875rem;
   margin-right: 1rem;
-  font-size: 1.625rem;
+  font-size: 1.875rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -2164,7 +2164,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.625rem;
+  font-size: 1.875rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent; }
@@ -5285,15 +5285,17 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 body {
-  padding: 74px;
+  padding: 0;
   font-family: "ModernSans-Light", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  margin: 0; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "modern_sans_serif_7"; }
+h1, h2, h3, h4, h5 {
+  font-family: "modern_sans_serif_7";
+  font-size: 1.8em; }
 
-h2 {
-  font-size: 3vw; }
+h3 {
+  font-size: 1em; }
 
 .navbar-brand {
   font-family: "norty", cursive;
@@ -5309,14 +5311,15 @@ h2 {
   font-size: 1.2rem; }
 
 .spectacle {
-  padding: 5vh 0;
   background-image: url(../img/couverture2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom center;
-  height: 60vw; }
+  background-position: top center;
+  background-height: auto;
+  padding: 5vmin 0;
+  height: auto; }
   .spectacle h1 {
-    padding: 3vmin;
+    padding: 3vmax;
     font-family: "norty", cursive;
     color: #e23400; }
   .spectacle h2, .spectacle p {
@@ -5325,7 +5328,7 @@ h2 {
     font-family: "modern_sans_serif_7"; }
 
 .about {
-  background: url(../img/mot2.jpg);
+  background-image: url(../img/mot2.jpg);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -5338,7 +5341,45 @@ h2 {
   background-color: #1b636f;
   height: 45vw; }
 
-.administrateurs {
-  transform: translate(0, -23%); }
+.administrateurs, .enCours {
+  transform: translate(0, -6vw); }
+  .administrateurs h3, .enCours h3 {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 3px black, -1px -1px 2px black; }
+  .administrateurs p, .enCours p {
+    font-size: 1em;
+    text-shadow: 1px 1px 3px black, -1px -1px 2px black; }
+    @media (min-width: 768px) {
+      .administrateurs p, .enCours p {
+        font-size: .7em; }
+        .administrateurs p:hover, .enCours p:hover {
+          color: #1f1f1f;
+          background-color: rgba(255, 255, 255, 0.5); } }
+  @media (min-width: 768px) {
+    .administrateurs, .enCours {
+      transform: translate(0, -2vw); } }
+
+.card:hover {
+  box-shadow: 1px 10px 50px white, -1px -1px 4px white; }
+
+.membre {
+  margin-bottom: 1em; }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0;
+    padding-top: 74px;
+    margin: 0; }
+    body h1 {
+      font-size: 2rem; }
+    body h2 {
+      font-size: 1.6rem; }
+    body p {
+      font-size: 1.2rem; }
+    body .us {
+      background-color: #1b636f;
+      height: auto; }
+    body .about {
+      height: auto; } }
 
 /*# sourceMappingURL=main.css.map */
