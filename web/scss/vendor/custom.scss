@@ -6,13 +6,14 @@
 $red: #e23400;
 $black: #1f1f1f;
 $white: #fff;
-$turquoiseBackground: #1b636f;
+$turquoise: #1b636f;
 $greenBackground: #2d6c6a;
 
 $gray-600: #2d2d2d;
 
 //bootstraop primary color
 $primary: $red;
+$secondary: $turquoise;
 $brand-primary: $red;
 
 //buttons bootstrap
@@ -21,7 +22,7 @@ $enable-rounded: false;
 // colors bootstrap : see documentation Bootstrap
 $body-bg: $black;      //$gray-600;
 $body-color: $white;
-$text-background: $turquoiseBackground;
+$text-background: $turquoise;
 
 $display1-size: 4vw;   //display1 : title size 
 $lead-font-size: 1.8vW; //lead font
