@@ -6,7 +6,7 @@
         position: top center;
         height: auto;
     }
-    padding: 5vmin 0;
+    padding: 7vmin 0;
     height: auto;
 
     h1 {
@@ -73,7 +73,8 @@
             }
         }
     }
-
+    // equivalent to : 
+    //@media screen and (min-width: 768px) {
     @include media-breakpoint-up(md){
         transform: translate(0, -2vw);
     }
@@ -94,9 +95,12 @@
 .footer {
     margin: 0;
     padding: 0;
+   
 }
 
-@media screen and (max-width: 768px) {
+// equivalent to : 
+//@media screen and (max-width: 768px) {
+@include media-breakpoint-down(sm) {
     body {  
         padding: 0;
         padding-top: 74px; // hauteur barre menu
@@ -110,15 +114,19 @@
         p {
             font-size: 1.2rem;
         }
+    
         .us {
             background-color:$text-background;
             height: auto;
         }
-
         .about {
             height: auto;
         }
-
-
+        
+        .footer {
+            p {
+                font-size: 0.8em;
+            }
+        }
     }
 }

@@ -5316,7 +5316,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: top center;
   background-height: auto;
-  padding: 5vmin 0;
+  padding: 7vmin 0;
   height: auto; }
   .spectacle h1 {
     padding: 3vmax;
@@ -5375,7 +5375,7 @@ h3 {
   margin: 0;
   padding: 0; }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 767.98px) {
   body {
     padding: 0;
     padding-top: 74px;
@@ -5390,6 +5390,8 @@ h3 {
       background-color: #1b636f;
       height: auto; }
     body .about {
-      height: auto; } }
+      height: auto; }
+    body .footer p {
+      font-size: 0.8em; } }
 
 /*# sourceMappingURL=main.css.map */
